@@ -1,0 +1,48 @@
+body{
+    background-color: #a5a5a5;
+}
+h1{
+    text-align: center;
+}
+#ocean{
+    margin: auto;
+    margin-bottom: 10px;
+    width: 640px;
+    height: 400px;
+    border: 2px solid #000;
+    background-image: url('background.jpeg');
+    background-position: center;
+    transition-property: background-position;
+    transition-duration: 10s;
+}
+#controls
+{
+width: 135px;
+height: 135px;
+margin: auto;
+position: relative;
+}
+#controls div
+{
+width: 45px;
+height: 45px;
+position: absolute;
+background-image: url('fleches.png');
+background-repeat: no-repeat;
+}
+#fleche_hg{left: 0px; top: 0px; background-position: 0px top;}
+#fleche_hg:hover{background-position: 0px bottom;}
+#fleche_h{left: 45px; top: 0px; background-position: -45px top;}
+#fleche_h:hover{background-position: -45px bottom;}
+#fleche_hd{left: 90px; top: 0px; background-position: -90px top;}
+#fleche_hd:hover{background-position: -90px bottom;}
+#fleche_g{left: 0px; top: 45px; background-position: -135px top;}
+#fleche_g:hover{background-position: -135px bottom;}
+#fleche_d{left: 90px; top: 45px; background-position: -180px top;}
+#fleche_d:hover{background-position: -180px bottom;}
+#fleche_bg{left: 0px; top: 90px; background-position: -225px top;}
+#fleche_bg:hover{background-position: -225px bottom;}
+#fleche_b{left: 45px; top: 90px; background-position: -270px top;}
+#fleche_b:hover{background-position: -270px bottom;}
+#fleche_bd{left: 90px; top: 90px; background-position: -315px top;}
+#fleche_bd:hover{background-position: -315px bottom;}

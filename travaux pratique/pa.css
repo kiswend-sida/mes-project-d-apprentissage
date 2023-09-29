@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+header{
+    background: rgb(171, 171, 213);
+    color: rgb(244, 236, 235);
+    text-align: center;
+    height: 100px;
+    box-shadow: 0 0 10px; color: rgb(66, 59, 59);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 1350px;
+}
+header h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 25px;
+    color: #fff;
+}
+.dark{
+    color: rgb(20, 97, 148);
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-left: 10px;
+    text-shadow: rgb(202, 190, 218);
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(228, 227, 227);
+    font-size: 25px;
+    padding: 2px;
+    text-transform: capitalize;
+}
+#main-page{
+    background-image: url(pnu.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    padding-top: 5%;
+}
+
+#main-page div h1{
+    color: rgb(241, 240, 240);
+    text-align: center;
+    margin-top: 150px;
+}
+#main-page div p{
+    text-align: center;
+    color:rgb(14, 14, 183) ;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+/*section skills*/
+#skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(69, 108, 214);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.main-img{
+    text-align: center;
+    height: 300px;
+    width: 20% solid #2196f3;
+    padding: 3px;
+    box-shadow: 0 0 18px rgb(0, 0, 0);
+    margin: 20px;
+    border-radius: 8px;
+    transition:0,5s ease-out;
+    
+}
+img{
+    height: 200px;
+    width: 293px;
+    border-radius: 8px;
+}
+
+.main-img h3 {
+    font-size: 25px;
+    color: #fff;
+}
+.main-img :hover{
+    transform: scale(1.05);
+    color: yellow;
+
+}
+.main-img p{
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+}

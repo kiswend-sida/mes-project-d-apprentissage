@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto:ital@1&display=swap');
+
+/* header*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 14, 174);
+    height: 200px;
+    padding-left: 50px;
+    font-family : 'Kablammo', cursive ;
+
+}
+header h1{
+    font-size: 50px;
+    color: rgb(235, 252, 5);
+    text-transform: uppercase;
+}
+header nav a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 25 px;
+    color: rgb(245, 241, 235);
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+header nav a:nth-child(1){
+    color: aqua;
+    background-color: rgb(108, 243, 18);
+    border-radius: 6px;
+    padding: 5px;
+}
+header nav a:nth-child(4){
+    color: aqua;
+    background-color: rgb(55, 241, 8);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+/* header*/
+
+/* section un*/
+.un{
+    background: url(img\ sh.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+.un h1{
+    color: #0464f5;
+    padding-top: 240px;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.un a{
+    text-decoration: none;
+    font-size: 15px;
+    border:1px solid #f1f504;
+    border-radius: 6px;
+    margin-top: 30px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.un a:hover{
+    color: #bdff06;
+    background-color: #1079f1;
+}
+/* section un*/
+/* section deux*/
+.deux img{
+    width:300px ;
+    height: 300px;
+    animation: animate 4s linear infinite; 
+}
+@keyframes animate{
+    0%{
+        transform: rotate(360deg) scale(0);
+    }
+    50%{
+        transform: rotate(0deg) scale(1);
+    }
+    100%{
+        transform: rotate(0) scale(0);
+    }
+}
+/* section deux*/
+/* section trois*/
+.trois{
+    background: linear-gradient(90deg, rgb(240, 2, 133) 0%, rgb(255, 251, 2) 35%, rgba(0,212,255,1) 100%);
+    height: 700px;
+}
+.trois h1{
+    text-align: center;
+    font-family: 'kablammo';
+    font-size: 35px;
+    color: #0df32c;
+}
+.trois h1::before{
+    content:'beashop ';
+    
+}
+/* section trois*/
+/* footer*/
+footer{
+    background-color: #0cf5c2;
+    height: 500px;
+}
+footer h1,p{
+    color: #121311;
+    text-align: center;
+    margin: auto;
+}
+/* footer*/

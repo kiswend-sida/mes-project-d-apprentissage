@@ -1,0 +1,103 @@
+/************************************ tout le site**********************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  header {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    color: #06bbcc;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    color: #0a0a0a;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #06bbcc;
+  }
+  
+  
+  
+  /* Styles spécifiques pour le menu déroulant */
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #f0fbfc;
+    padding: 10px;
+    color: #06bbcc;
+  }
+  
+  nav ul li:hover ul {
+    display: block;
+  }
+ /* Styles spécifiques pour le corps */
+.container{
+    background-image: url(carousel-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    text-align: center;
+
+}
+.container h3{
+    color: #faf5f5;
+    padding: 100px 0px;
+    
+}
+
+    
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:moccasin;
+    color:chocolate;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:25px;
+  }
+/****************
+  .image{
+    display: flex;
+    justify-content: space-between;
+}
+  
+  .tem img{
+    height: 150px;
+    width: 150px;
+  }
+  .titre h1{
+    text-align: center;
+    color: #06bbcc;
+  }
+  **********/
+
+             /* footer*/
+ footer{
+    background-color: rgb(12, 27, 78);
+    height: 100px;
+}
+.copy{
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
